@@ -32,11 +32,41 @@ const Projects = () => {
       liveUrl: "https://gummi-builder.demo",
       githubUrl: "https://github.com/username/gummi-builder",
       contribution: "Built the entire application from scratch, implemented 3D rendering engine, created physics simulation system, and designed intuitive drag-and-drop interface."
+    },
+    {
+      title: "Project 4",
+      role: "Developer",
+      description: "Coming soon...",
+      techStack: ["React", "TypeScript", "Node.js"],
+      imageUrl: "/placeholder.svg",
+      liveUrl: "#",
+      githubUrl: "#",
+      contribution: "Project in development."
+    },
+    {
+      title: "Project 5",
+      role: "Developer",
+      description: "Coming soon...",
+      techStack: ["React", "TypeScript", "Node.js"],
+      imageUrl: "/placeholder.svg",
+      liveUrl: "#",
+      githubUrl: "#",
+      contribution: "Project in development."
+    },
+    {
+      title: "Project 6",
+      role: "Developer",
+      description: "Coming soon...",
+      techStack: ["React", "TypeScript", "Node.js"],
+      imageUrl: "/placeholder.svg",
+      liveUrl: "#",
+      githubUrl: "#",
+      contribution: "Project in development."
     }
   ];
 
   return (
-    <section className="py-20 px-6 relative">
+    <section id="projects" className="py-20 px-6 relative">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <span className="absolute top-10 left-10 text-accent/10 w-12 h-12 animate-float">✨</span>

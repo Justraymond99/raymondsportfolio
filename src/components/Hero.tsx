@@ -43,7 +43,17 @@ const Hero = () => {
               <Download className="w-5 h-5 group-hover:animate-bounce" />
               Download Resume
             </Button>
-            <Button variant="outline" size="lg" className="group">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="group"
+              onClick={() => {
+                const projectsSection = document.getElementById('projects');
+                if (projectsSection) {
+                  projectsSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+            >
               <ExternalLink className="w-5 h-5 group-hover:animate-pulse" />
               View Projects
             </Button>
